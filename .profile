@@ -20,4 +20,5 @@ fi
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
-export linux="Ubuntu"
+
+#export PATH="$HOME/.cargo/bin:$PATH"
