@@ -1,3 +1,5 @@
+alias la='ls -A'
+alias l='ls -CF'
 alias less='less -iMRX'
-alias ls='ls -lFhp --color --time-style="+%Y-%m-%d %H:%M"'
+alias ll='ls -lFhp --color --time-style="+%Y-%m-%d %H:%M"'
 
