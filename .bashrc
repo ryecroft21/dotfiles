@@ -18,6 +18,7 @@ shopt -s histappend
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=50000
 HISTFILESIZE=80000
+HISTTIMEFORMAT='%Y-%m-%dT%T%z '
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -117,3 +118,7 @@ fi
 
 # for WSL
 umask 0022
+
+if [ -f ~/.bashrc_local ]; then
+    . ~/.bashrc_local
+fi
