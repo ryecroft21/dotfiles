@@ -122,3 +122,5 @@ umask 0022
 if [ -f ~/.bashrc_local ]; then
     . ~/.bashrc_local
 fi
+
+cd $HOME
