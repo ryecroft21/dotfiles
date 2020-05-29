@@ -116,6 +116,8 @@ fi
 
 #export GHCRTS=-V0
 
+function rdf() { df -h | grep -v snap | grep -v tmpfs ; }
+
 # for WSL
 umask 0022
 
