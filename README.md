@@ -1,2 +1,2 @@
 # dotfiles
-dotfiles on BoW and Ubuntu
+dotfiles on WSL and Ubuntu
